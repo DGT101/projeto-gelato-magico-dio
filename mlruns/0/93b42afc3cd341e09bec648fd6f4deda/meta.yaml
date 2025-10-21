@@ -1,0 +1,14 @@
+artifact_uri: file:///home/davi/Documentos/projeto-gelato-magico-dio/mlruns/0/93b42afc3cd341e09bec648fd6f4deda/artifacts
+end_time: 1761016067817
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 93b42afc3cd341e09bec648fd6f4deda
+run_name: flawless-shrew-438
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761016065494
+status: 3
+tags: []
+user_id: davi

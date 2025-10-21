@@ -1,0 +1,10 @@
+artifact_location: file:///home/davi/Documentos/projeto-gelato-magico-dio/mlruns/0/models/m-6f20453aea294f5d9cf7d6eb05f60e2d/artifacts
+creation_timestamp: 1761015472442
+experiment_id: '0'
+last_updated_timestamp: 1761015474691
+model_id: m-6f20453aea294f5d9cf7d6eb05f60e2d
+model_type: null
+name: model
+source_run_id: 122679f00f0d4d0ab6b314312983dd15
+status: 2
+status_message: null

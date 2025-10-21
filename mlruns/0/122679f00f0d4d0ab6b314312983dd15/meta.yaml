@@ -1,0 +1,14 @@
+artifact_uri: file:///home/davi/Documentos/projeto-gelato-magico-dio/mlruns/0/122679f00f0d4d0ab6b314312983dd15/artifacts
+end_time: 1761015474736
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 122679f00f0d4d0ab6b314312983dd15
+run_name: receptive-grouse-200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761015472355
+status: 3
+tags: []
+user_id: davi

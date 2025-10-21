@@ -1,0 +1,14 @@
+artifact_uri: file:///home/davi/Documentos/projeto-gelato-magico-dio/mlruns/0/6c5d207dad28443cb21b85e2f6de035c/artifacts
+end_time: 1761014502802
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c5d207dad28443cb21b85e2f6de035c
+run_name: ambitious-bee-705
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761014500290
+status: 3
+tags: []
+user_id: davi

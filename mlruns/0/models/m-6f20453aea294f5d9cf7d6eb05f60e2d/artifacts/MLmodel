@@ -1,0 +1,22 @@
+artifact_path: file:///home/davi/Documentos/projeto-gelato-magico-dio/mlruns/0/models/m-6f20453aea294f5d9cf7d6eb05f60e2d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.5.0
+model_id: m-6f20453aea294f5d9cf7d6eb05f60e2d
+model_size_bytes: 535
+model_uuid: m-6f20453aea294f5d9cf7d6eb05f60e2d
+prompts: null
+run_id: 122679f00f0d4d0ab6b314312983dd15
+utc_time_created: '2025-10-21 02:57:52.448109'
