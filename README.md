@@ -52,9 +52,6 @@ Uma API REST foi desenvolvida com Flask (src/app.py) para servir o modelo treina
 
 O teste local com curl confirma que a API está respondendo corretamente.
 
-[COLE AQUI O PRINT DO SEU TERMINAL MOSTRANDO O COMANDO curl E A RESPOSTA JSON BEM-SUCEDIDA]
-*Exemplo: *
-
 ☁️ API em Produção
 
 A API foi colocada em produção na plataforma Render. Você pode fazer previsões em tempo real enviando uma requisição POST.
@@ -63,7 +60,7 @@ URL da API: https://gelato-magico-api.onrender.com
 
 Como usar:
 
-curl -X POST SUA_URL_AQUI/predict \
+curl -X https://gelato-magico-api.onrender.com/predict \
      -H "Content-Type: application/json" \
      -d '{"temperatura": 32.5}'
 
@@ -80,7 +77,7 @@ Exemplo de Resposta:
 
 Clone o repositório:
 
-git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
+git clone [https://github.com/DGT101/projeto-gelato-magico-dio.git](https://github.com/DGT101/projeto-gelato-magico-dio.git)
 cd SEU-REPOSITORIO
 
 
