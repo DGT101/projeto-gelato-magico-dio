@@ -26,6 +26,8 @@ O projeto foi estruturado para ser um pipeline de MLOps simples, porém completo
 
 Os dados foram gerados sinteticamente (src/generate_data.py) para simular uma correlação forte e positiva entre a temperatura e as vendas. A análise exploratória confirma essa relação, que é a premissa fundamental para o nosso modelo de regressão.
 
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/f36e1189-29b7-43c6-beb5-c22327d7e5fe" />
+
 2. Treinamento e Rastreamento com MLflow
 
 O script src/train.py é responsável por:
