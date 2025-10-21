@@ -26,9 +26,6 @@ O projeto foi estruturado para ser um pipeline de MLOps simples, porém completo
 
 Os dados foram gerados sinteticamente (src/generate_data.py) para simular uma correlação forte e positiva entre a temperatura e as vendas. A análise exploratória confirma essa relação, que é a premissa fundamental para o nosso modelo de regressão.
 
-*Exemplo: *
-![alt text](image.png)
-
 2. Treinamento e Rastreamento com MLflow
 
 O script src/train.py é responsável por:
@@ -43,9 +40,6 @@ Registrar os parâmetros, métricas (como R² e RMSE) e o próprio modelo como u
 
 Isso nos permite comparar diferentes treinamentos e gerenciar as versões do modelo de forma organizada.
 
-*Exemplo: *
-![alt text](image-1.png)
-
 3. API de Previsão
 
 Uma API REST foi desenvolvida com Flask (src/app.py) para servir o modelo treinado. Ela expõe um endpoint /predict que recebe a temperatura e retorna a previsão de vendas. Para o deploy, o modelo foi serializado com joblib, garantindo que a API seja independente.
@@ -54,9 +48,9 @@ O teste local com curl confirma que a API está respondendo corretamente.
 
 ☁️ API em Produção
 
-A API foi colocada em produção na plataforma Render. Você pode fazer previsões em tempo real enviando uma requisição POST.
+A API foi colocada em produção na plataforma Render.
 
-URL da API: https://gelato-magico-api.onrender.com
+URL da API: https://gelato-magico-api.onrender.com (Link inativo devido ao plano gratuito)
 
 Como usar:
 
