@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import mlflow
 import mlflow.sklearn
-import joblib ### ADICIONADO ###
-import os ### ADICIONADO ###
+import joblib
+import os
 
 # 1. Iniciar um "Run" do MLflow
 # O MLflow vai criar uma pasta 'mlruns' para salvar tudo
@@ -31,8 +31,7 @@ with mlflow.start_run():
     print("Avaliando modelo...")
     y_pred = model.predict(X_test)
 
-    # Corrigi aqui também: mean_squared_error com squared=False para ter o RMSE
-    rmse = mean_squared_error(y_test, y_pred) ### CORRIGIDO ###
+    rmse = mean_squared_error(y_test, y_pred)
     r2 = r2_score(y_test, y_pred)
 
     print(f"Modelo treinado!")
@@ -54,10 +53,9 @@ with mlflow.start_run():
         registered_model_name="GelatoMagicoModel" # Nome do modelo no Registry
     )
     
-    # --- Salvar cópia local para a API --- ### ADICIONADO ###
+    # --- Salvar cópia local para a API ---
     print("Salvando cópia do modelo em 'model/model.pkl'...")
     os.makedirs('model', exist_ok=True) # Cria a pasta 'model' se não existir
     joblib.dump(model, 'model/model.pkl')
-    ### FIM DA ADIÇÃO ###
 
     print("\n--- Run MLflow finalizado ---")
