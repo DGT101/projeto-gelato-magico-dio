@@ -72,7 +72,7 @@ Exemplo de Resposta:
 Clone o repositório:
 
 git clone [https://github.com/DGT101/projeto-gelato-magico-dio.git](https://github.com/DGT101/projeto-gelato-magico-dio.git)
-cd SEU-REPOSITORIO
+cd (nome da pasta)
 
 
 Crie e ative um ambiente virtual:
